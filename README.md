@@ -28,32 +28,6 @@ This project aims to **detect fake profiles** on social media platforms using **
 ### **Database:**
 - MySQL / MongoDB
 
-## 📂 Project Structure
-```
-📂 Fake-Profile-Detection
-├── 📁 frontend
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   └── ...
-├── 📁 backend
-│   ├── app.py
-│   ├── model.py
-│   ├── database.py
-│   ├── requirements.txt
-│   └── ...
-├── 📁 dataset
-│   ├── fake_profiles.csv
-│   ├── real_profiles.csv
-│   └── ...
-├── 📁 models
-│   ├── trained_model.pkl
-│   ├── feature_selection.py
-│   └── ...
-├── README.md
-└── requirements.txt
-```
-
 ## 🛠 Installation & Setup
 1. **Clone the repository:**
    ```bash
