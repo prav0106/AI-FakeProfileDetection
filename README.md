@@ -7,26 +7,49 @@ This project aims to **detect fake profiles** on social media platforms using **
 - **User Authentication**: Secure login and signup for users.
 - **Profile Analysis**: AI-based analysis of user profile data.
 - **Machine Learning Model**: Detects fake profiles based on behavior and content.
-- **Visualization**: Dashboard with graphs and stats.
 - **Admin Panel**: For monitoring suspicious accounts.
-- **API Integration**: Can be integrated with social media platforms.
 
 ## 🚀 Tech Stack
 ### **Frontend:**
-- React.js / HTML, CSS, JavaScript
-- Bootstrap / Tailwind CSS
+- HTML, CSS, JavaScript
 
 ### **Backend:**
-- Flask / Django (Python)
+- Flask (Python)
 - REST API for model interaction
 
 ### **Machine Learning:**
-- TensorFlow / Scikit-Learn
+- Scikit-Learn
 - NLP for text analysis
 - Feature Engineering with Pandas & NumPy
 
 ### **Database:**
-- MySQL / MongoDB
+- MySQL
+
+## 📂 Project Structure
+```
+📂 Fake-Profile-Detection
+├── 📁 frontend
+│   ├── index.html
+│   ├── styles.css
+│   ├── script.js
+│   └── ...
+├── 📁 backend
+│   ├── app.py
+│   ├── model.py
+│   ├── database.py
+│   ├── requirements.txt
+│   └── ...
+├── 📁 dataset
+│   ├── fake_profiles.csv
+│   ├── real_profiles.csv
+│   └── ...
+├── 📁 models
+│   ├── trained_model.pkl
+│   ├── feature_selection.py
+│   └── ...
+├── README.md
+└── requirements.txt
+```
 
 ## 🛠 Installation & Setup
 1. **Clone the repository:**
@@ -43,20 +66,15 @@ This project aims to **detect fake profiles** on social media platforms using **
    python app.py
    ```
 4. **Run the frontend:**
-   ```bash
-   cd frontend
-   open index.html (or use React for dynamic UI)
-   ```
-5. **Test the API:** Use **Postman** or a web browser to test endpoints.
+   Open `index.html` in a browser.
 
 ## 📊 Machine Learning Model
 - **Data Preprocessing**: Cleaning, feature selection
-- **Model Training**: Using **Random Forest / CNN / LSTM**
+- **Model Training**: Using **Random Forest**
 - **Evaluation**: Accuracy, precision, recall, F1-score
 - **Deployment**: Model hosted using Flask API
 
 ## 📌 Future Enhancements
-- Integrating **deep learning models** for higher accuracy.
 - Expanding dataset for better generalization.
 - Real-time monitoring of suspicious activities.
 
