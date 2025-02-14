@@ -58,5 +58,3 @@ Pull requests are welcome! If you'd like to improve the project, feel free to **
 ## 📝 License
 This project is **open-source** under the MIT License.
 
----
-**🚀 Ready to make social media safer with AI!** 💡
