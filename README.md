@@ -55,5 +55,6 @@ This project aims to **detect fake profiles** on social media platforms using **
 ## 💡 Contributing
 Pull requests are welcome! If you'd like to improve the project, feel free to **fork** and submit changes. 
 
-
+## 📝 License
+This project is **open-source** under the MIT License.
 
