@@ -6,8 +6,7 @@ This project aims to **detect fake profiles** on social media platforms using **
 ## 🔥 Features
 - **User Authentication**: Secure login and signup for users.
 - **Profile Analysis**: AI-based analysis of user profile data.
-- **Machine Learning Model**: Detects fake profiles based on behavior and content.
-- **Admin Panel**: For monitoring suspicious accounts.
+
 
 ## 🚀 Tech Stack
 ### **Frontend:**
