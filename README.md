@@ -9,9 +9,6 @@ This project aims to **detect fake profiles** on social media platforms using **
 - **Machine Learning Model**: Detects fake profiles based on behavior and content.
 - **Admin Panel**: For monitoring suspicious accounts.
 
-## 🚀 Tech Stack
-### **Frontend:**
-- HTML, CSS, JavaScript
 
 ### **Backend:**
 - Flask (Python)
