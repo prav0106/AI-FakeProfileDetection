@@ -1,7 +1,6 @@
 # Fake Profile Detection in Social Media
 
 ## 📌 Project Overview
-This project aims to **detect fake profiles** on social media platforms using **AI and Machine Learning** techniques. It analyzes user behavior, profile attributes, and interactions to classify accounts as **genuine or fake**.  
 
 ## 🔥 Features
 - **User Authentication**: Secure login and signup for users.
