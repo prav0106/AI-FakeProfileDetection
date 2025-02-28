@@ -28,7 +28,7 @@ This project aims to **detect fake profiles** on social media platforms using **
 ## 🛠 Installation & Setup
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Fake-Profile-Detection.git
+   git clone https://github.com/prav0106/Fake-Profile-Detection.git
    cd Fake-Profile-Detection
    ```
 2. **Install dependencies:**
