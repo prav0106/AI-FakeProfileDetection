@@ -4,26 +4,13 @@
 This project aims to **detect fake profiles** on social media platforms using **AI and Machine Learning** techniques. It analyzes user behavior, profile attributes, and interactions to classify accounts as **genuine or fake**.
 
 ## 🔥 Features
-- **User Authentication**: Secure login and signup for users.
-- **Profile Analysis**: AI-based analysis of user profile data.
-- **Machine Learning Model**: Detects fake profiles based on behavior and content.
-- **Admin Panel**: For monitoring suspicious accounts.
+- **Machine Learning Models**: Comparison between **Logistic Regression** and **Random Forest** for detecting fake profiles.
+- **Graphical Insights**: Visualization of model performance and feature importance.
 
 ## 🚀 Tech Stack
-### **Frontend:**
-- HTML, CSS, JavaScript
-
-### **Backend:**
-- Flask (Python)
-- REST API for model interaction
-
-### **Machine Learning:**
-- Scikit-Learn
-- NLP for text analysis
-- Feature Engineering with Pandas & NumPy
-
-### **Database:**
-- MySQL
+- **Scikit-Learn** for machine learning models.
+- **Pandas & NumPy** for data preprocessing and feature engineering.
+- **Matplotlib & Seaborn** for graphical insights.
 
 ## 🛠 Installation & Setup
 1. **Clone the repository:**
@@ -35,23 +22,25 @@ This project aims to **detect fake profiles** on social media platforms using **
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the backend server:**
+3. **Run the model script:**
    ```bash
-   python app.py
+   python fake_profile_detection.py
    ```
-4. **Run the frontend:**
-   Open `index.html` in a browser.
 
-## 📊 Machine Learning Model
-- **Data Preprocessing**: Cleaning, feature selection
-- **Model Training**: Using **Random Forest**
-- **Evaluation**: Accuracy, precision, recall, F1-score
-- **Deployment**: Model hosted using Flask API
+## 📊 Machine Learning Models
+- **Data Preprocessing**: Cleaning, feature selection, and standardization.
+- **Model Training**:
+  - **Logistic Regression**
+  - **Random Forest**
+- **Evaluation**:
+  - Accuracy, precision, recall, F1-score.
+  - **Graphical Comparison**: Performance visualization of both models.
+  - **Feature Importance Analysis** for better interpretability.
+  - **ROC Curve Comparison** to analyze model effectiveness.
 
 ## 📌 Future Enhancements
 - Expanding dataset for better generalization.
-- Real-time monitoring of suspicious activities.
+- Implementing deep learning models for improved accuracy.
 
 ## 💡 Contributing
-Pull requests are welcome! If you'd like to improve the project, feel free to **fork** and submit changes. 
-
+Pull requests are welcome! If you'd like to improve the project, feel free to **fork** and submit changes.
