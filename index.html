@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fake Profile Detector</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 1.5rem 2rem;
+      background: rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #00e676;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00e5ff;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 1.5rem;
+      border: 4px solid #00e5ff;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      color: #00e5ff;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    .hero button {
+      background: #00e676;
+      color: #000;
+      padding: 0.75rem 2rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .hero button:hover {
+      background: #00c853;
+    }
+
+    .animated-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background: url('https://cdn.pixabay.com/photo/2018/10/04/12/22/artificial-intelligence-3722268_960_720.jpg') no-repeat center center/cover;
+      filter: brightness(0.3);
+      z-index: 0;
+    }
+
+    footer {
+      padding: 1rem 2rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+      font-size: 0.9rem;
+      color: #eee;
+    }
+
+    footer i {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-bg"></div>
+
+  <header>
+    <h1><i class="fas fa-user-secret"></i> Fake Profile Detector</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Predict</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="{{ url_for('static', filename='image.jpg') }}" alt="AI Avatar" style="width: 180px; height: 180px; border-radius: 50%;">
+    <h2>AI-Based Fake Profile Detection</h2>
+    <p>Our system helps identify fake profiles with AI-powered algorithms using real-time data analysis. Stay secure and informed!</p>
+    <button onclick="window.location.href='/predict'">Start Detection</button>
+  </section>
+
+  <footer>
+    © 2025 Fake Profile Detection | Made with <i class="fas fa-heart"></i> 
+  </footer>
+</body>
+</html>
