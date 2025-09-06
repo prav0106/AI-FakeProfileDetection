@@ -8,7 +8,7 @@ This project aims to **detect fake profiles** on social media platforms using **
 - **Graphical Insights**: Visualization of model performance and feature importance.
 
 ## 🚀 Tech Stack
-- **Scikit-Learn** for machine learning models.
+- **Scikit-Learn** for machine learning models.   
 - **Pandas & NumPy** for data preprocessing and feature engineering.
 - **Matplotlib & Seaborn** for graphical insights.
 
