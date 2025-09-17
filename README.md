@@ -2,7 +2,7 @@
   
 ## 📌 Project Overview
 This project aims to **detect fake profiles** on social media platforms using **AI and Machine Learning** techniques. It analyzes user behavior, profile attributes, and interactions to classify accounts as **genuine or fake**.
-  
+    
 ## 🔥 Features
 - **Machine Learning Models**: Comparison between **Logistic Regression** and **Random Forest** for detecting fake profiles.
 - **Graphical Insights**: Visualization of model performance and feature importance.
