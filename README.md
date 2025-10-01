@@ -10,7 +10,7 @@ This project aims to **detect fake profiles** on social media platforms using **
 ## 🚀 Tech Stack
 - **Scikit-Learn** for machine learning models.   
 - **Pandas & NumPy** for data preprocessing and feature engineering.
-- **Matplotlib & Seaborn** for graphical insights.
+- **Matplotlib & Seaborn** for graphical insights. 
 
 ## 🛠 Installation & Setup
 1. **Clone the repository:**
